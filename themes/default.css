@@ -1,0 +1,60 @@
+.jqaf {
+    position: relative;
+    font-family: verdana;
+    font-size: 11px;
+}
+.jqaf-table-container {
+    padding: 0px 5px 5px 5px;
+    text-align: right;
+}
+.jqaf-table {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+.jqaf-table > div { display: table-row }
+.jqaf-table > div > div {
+    display: table-cell;
+    border: 1px solid #DDDDDD;
+}
+.jqaf-table .jqaf-th .jqaf-tc {
+    background: #f8f8f8;
+    padding: 5px 10px;
+    text-align: left !important;
+    font-weight: bold;
+}
+.jqaf-table .jqaf-tr .jqaf-tc {
+    padding: 5px 10px;
+    overflow: hidden;
+    background: #ffffff;
+    text-align: left !important;
+}
+.jqaf-title {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.jqaf-title .jqaf-tc {
+    display: table-cell;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+.jqaf-field {
+    width: 100%;
+    font-size: 11px;
+    padding: 0px;
+    border: 0px;
+    font-family: verdana;
+    box-sizing: border-box;
+}
+.jqaf-action-button {
+    margin-top: 10px;
+    background: #f8f8f8;
+    border: 1px solid #CCCCCC;
+    font-family: verdana;
+    font-size: 11px;
+    padding: 2px 7px;
+    cursor: pointer;
+}
+.jqaf-action-button:hover { background: #FFFFFF }
