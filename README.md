@@ -1,7 +1,7 @@
 Example usage
 =============
 
-```
+```javascript
 // Create the chart
 
 var chartData = AmCharts.loadJSON("PATH_TO_JSON.php");
@@ -79,7 +79,8 @@ $(".filter").amFilter({
 
     }]
 });
-
+```
+```php
 // In the jSON.php file
 
 if (isset($_POST['filter'])) {
