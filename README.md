@@ -1,6 +1,7 @@
 Example usage
 =============
 
+```
 // Create the chart
 
 var chartData = AmCharts.loadJSON("PATH_TO_JSON.php");
@@ -97,3 +98,4 @@ if (isset($_POST['filter'])) {
 else {
 	$query = "SELECT * FROM table ";
 }
+```
