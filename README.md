@@ -1,3 +1,21 @@
+Requirements
+=============
+
+```html
+<!-- JQuery UI stylesheets -->
+
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.min.css">
+	  
+<!-- JQuery -->
+	  
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	  
+<!-- JQuery UI -->
+	  
+<script src="js/jquery-ui.min.js"></script>
+```
+
 Example usage
 =============
 
